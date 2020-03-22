@@ -3,7 +3,7 @@
 	position: fixed;
 	width: 100%;
 	height: 35px;
-	background: white;
+	background: royalblue;
 }
 
 /* Add a black background color to the top navigation */
@@ -34,6 +34,14 @@
 
 
 .photos {
-    align-items: center;
-    align-self: center;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+    font-size: large;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
 }
