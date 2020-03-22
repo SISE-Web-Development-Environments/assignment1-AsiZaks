@@ -4,37 +4,44 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<div class="topnav" id="menu">
+<a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
 </div>
 		  
 <section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+    <br />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    About Me
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    Hi my name is Asaf Zaks, i'm 26 years old and i live happily in Lod. Im a third year student of Software and Information Systems Engeenering in BGU.
+    <br />
+    My hobbies are traveling, cooking, playing games. Im most intrested in Cyber security and Machine learning.
+    <br />
+    I'm hoping to learn how to design web sites, front and back. My most influensing Characher is Pumba - Hakuna matata.
+    <br />
+    <br />
+    <br />
+    <br />
 </section>
 
 <section id="photos" class="section">
@@ -46,15 +53,20 @@ about me
 <br/>
 <br/>
 <br/>
+My Photos
+<br/>
+<br/>
+<table class="photos">
+  <tr><tb><img src="1.jpg" width="300" height="200"></tb></tr>
+  <tr><tb><img src="2.jpg" width="300" height="200"></tb></tr>
+  <tr><tb><img src="3.jpg" width="300" height="200"></tb></tr>
+  <tr><tb><img src="4.jpg" width="300" height="200"></tb></tr>
+</table>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-my photos
 <br/>
 <br/>
 <br/>
@@ -77,9 +89,9 @@ my photos
 <br/>
 <br/>
 <br/>
-my playlist
+My Playlist
 <br/>
-<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=RDr8BsuT0PWdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
 </section>
 
@@ -88,19 +100,20 @@ my playlist
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 give me a like
+<br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-AsiZaks%2F&width=100&layout=standard&action=like&size=small&share=true&height=35&appId" width="100" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="false" allow="encrypted-media"></iframe>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="fb-like" data-href="https://github.com/SISE-Web-Development-Environments/assignment1-AsiZaks/blob/master/index.html" data-width="100" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -125,7 +138,7 @@ give me a like
 <br/>
 scan my code
 <br/>
-<br/>
+<img src="qr.png" width="200" height="200">
 <br/>
 </section>
 
@@ -176,6 +189,8 @@ contact me
 </section>
 
 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 <script type="text/javascript">
 $(function(){
   $("#nav a").click(function(e){

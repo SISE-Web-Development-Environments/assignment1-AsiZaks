@@ -5,3 +5,35 @@
 	height: 35px;
 	background: white;
 }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: royalblue;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.photos {
+    align-items: center;
+    align-self: center;
+}
