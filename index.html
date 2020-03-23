@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<title>Asi's Website</title>
 </head>
 <body>
 <div class="topnav" id="menu">
@@ -9,19 +10,12 @@
 <a href="#photos">My Photos</a>
 <a href="#playlist">My Playlist</a>
 <a href="#like">Like</a>
-<a href="#qrcoder">QR code</a>
+<a href="#qrcoder">QR Code</a>
 <a href="#spa">Q&A</a>
 <a href="#contact">Contact Me</a>
 </div>
 		  
 <section id="about" class="section">
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <br />
     <div class="title" >About Me</div>
     <br />
@@ -30,16 +24,12 @@
       My hobbies are traveling, cooking, playing games. I am most intrested in Cyber security and Machine learning.
       I'm hoping to learn how to design web sites, front and back.
     </div>
-  
     <br />
 </section>
 
 <section id="photos" class="section">
-
-<br/>
 <br/>
 <p class="title">My Photos </p>
-<br/>
 <br/>
 <div class="photos">
 <table >
@@ -50,20 +40,9 @@
 </table>
 </div>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <p class="title">My Playlist</p>
 <br/>
@@ -73,57 +52,64 @@
 
 <section id="like" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
 <p class="title">Give Me A Like</p>
 <br/>
-<br/>
-<br/>
-<div style="text-align: center;"><iframe src="http://www.facebook.com/plugins/like.php?href=https://sise-web-development-environments.github.io/assignment1-AsiZaks/&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=80&amp" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe></div>
-<br/>
-<br/>
-<br/>
-<br/>
+<div style="text-align: center;"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-AsiZaks%2F&width=100&layout=standard&action=like&size=large&share=true&height=35&appId" width="200" height="50" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>
 <br/>
 </section>
 
 <section id="qrcoder" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <p class="title"> Scan My QR </p>
 <br/>
-<div style="text-align: center;"><img src="qr.png" width="200" height="200"></div>
+<div style="text-align: center;"><img src="qr.png" width="300" height="300"></div>
 <br/>
 </section>
 
 <section id="spa" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <p class="title">Q&A</p>
 <br/>
-<br/>
+<div class="data">
+ <ol>
+   <li style="font-size: x-large;">Three main diffrences between web1, web2 and web3:</li>
+   <ul>
+     <li>Pages: web1 has only static pages for advertisment of content, when web2 is dynamic and used for comunication between users,
+       and web3 is even more dynamic and allows personal web expirience.</li>
+       <li>Search engine: web1 has a very simple search mechanism, when web2 has google, and web3 has advanced search and recommendation systems. </li>
+       <li>Abilitys: web1 was Read-only web, when web2 was an Read & Write web, and web3 is a Read, Write & Execute web.</li>
+   </ul>
+   <li style="font-size: x-large;">Use Case - Download contect from web:</li>
+   <ul>
+     <li>Web1: download by pressing button that linked to a server holding the content, slow and unrelaiable. </li>
+     <li>Web2: download is integrated to the browser, safer and more relaiable, and also peer to peer download of contect.</li>
+     <li>Web3: running content on web instead of dowloading, personal cloud space that allows download from all OS platforms.</li>
+   </ul>
+ </ol>
+</div>
 <br/>
 </section>
 
 <section id="contact" class="section">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <p class="title">Contact Me</p>
 <br/>
-<br/>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Your address..">
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="Your subject..">
+
+    <label for="content">Message:</label>
+    <textarea id="subject" name="content" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 <br/>
 </section>
 
