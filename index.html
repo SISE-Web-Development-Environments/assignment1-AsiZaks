@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <title>Asi's Website</title>
 </head>
-<body>
+<body class="body">
 <div class="topnav" id="menu">
 <a href="#about">About Me</a>
 <a href="#photos">My Photos</a>
@@ -17,12 +17,14 @@
 		  
 <section id="about" class="section">
     <br />
+    <br />
+    <br />
     <div class="title" >About Me</div>
     <br />
     <div class="info" >
       Hi my name is Asaf Zaks, i'm 26 years old and i live happily in Lod. Im a third year student of Software and Information Systems Engeenering in BGU.
       My hobbies are traveling, cooking, playing games. I am most intrested in Cyber security and Machine learning.
-      I'm hoping to learn how to design web sites, front and back.
+      I'm hoping to learn how to design web sites, front and back. The most difficult part in the work for me was the design using css.
     </div>
     <br />
 </section>
@@ -74,16 +76,17 @@
  <ol>
    <li style="font-size: x-large;">Three main diffrences between web1, web2 and web3:</li>
    <ul>
-     <li>Pages: web1 has only static pages for advertisment of content, when web2 is dynamic and used for comunication between users,
+     <li class="ans">Pages: web1 has only static pages for advertisment of content, when web2 is dynamic and used for comunication between users,
        and web3 is even more dynamic and allows personal web expirience.</li>
-       <li>Search engine: web1 has a very simple search mechanism, when web2 has google, and web3 has advanced search and recommendation systems. </li>
-       <li>Abilitys: web1 was Read-only web, when web2 was an Read & Write web, and web3 is a Read, Write & Execute web.</li>
+       <li class="ans">Search engine: web1 has a very simple search mechanism, when web2 has google, and web3 has advanced search and recommendation systems. </li>
+       <li class="ans"> Abilitys: web1 was Read-only web, when web2 was an Read & Write web, and web3 is a Read, Write & Execute web.</li>
    </ul>
+   <br/>
    <li style="font-size: x-large;">Use Case - Download contect from web:</li>
    <ul>
-     <li>Web1: download by pressing button that linked to a server holding the content, slow and unrelaiable. </li>
-     <li>Web2: download is integrated to the browser, safer and more relaiable, and also peer to peer download of contect.</li>
-     <li>Web3: running content on web instead of dowloading, personal cloud space that allows download from all OS platforms.</li>
+     <li class="ans">Web1: download by pressing button that linked to a server holding the content, slow and unrelaiable. </li>
+     <li class="ans">Web2: download is integrated to the browser, safer and more relaiable, and also peer to peer download of contect.</li>
+     <li class="ans">Web3: running content on web instead of dowloading, personal cloud space that allows download from all OS platforms.</li>
    </ul>
  </ol>
 </div>
@@ -95,23 +98,40 @@
 <p class="title">Contact Me</p>
 <br/>
 <div class="container">
-  <form action="action_page.php">
+  <form action="mailto:zaksas@post.bgu.ac.il" method="POST" enctype="text/plain" >
 
     <label for="email">Email:</label>
-    <input type="text" id="email" name="email" placeholder="Your address..">
+    <input type="text" id="email" name="from" placeholder="Your address..">
 
     <label for="subject">Subject:</label>
     <input type="text" id="subject" name="subject" placeholder="Your subject..">
 
-    <label for="content">Message:</label>
-    <textarea id="subject" name="content" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="body">Message:</label>
+    <textarea id="subject" name="body" placeholder="Write something.." style="height:200px"></textarea>
 
+    <label for="emoji">Did you liked it?</label>
+      <INPUT NAME = "emoji" TYPE = "radio"
+         VALUE = "🤑" name="body">
+         🤑 
+      <INPUT NAME = "emoji" TYPE = "radio" 
+         VALUE = "🤩" name="body">
+         🤩 
+      <INPUT NAME = "emoji" TYPE = "radio" 
+         VALUE = "🤪" name="body">
+         🤪 
+      <INPUT NAME = "emoji" TYPE = "radio" 
+         VALUE = "😍" name="body">
+         😍 
+      <INPUT NAME = "emoji" TYPE = "radio" 
+         VALUE = "&#128518;" name="body">
+         &#128518; 
+    <br/>
     <input type="submit" value="Submit">
-
   </form>
 </div>
 <br/>
 </section>
+
 
 
 <script type="text/javascript">
