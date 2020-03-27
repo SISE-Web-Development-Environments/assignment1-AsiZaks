@@ -11,6 +11,8 @@
 .body{
     background-image: url(wall3.jpg);
     background-size: contain;
+    font: Garamond;
+
 }
 
 .topnav {
@@ -38,11 +40,22 @@
 
 .photos {
     text-align: center;
+    background-color:  rgb(255, 228, 196,0.7);
+    border-radius: 20px;
+    
+    
 }
 
 .info{
     text-align: center;
     font-size: larger;
+    background-color:  rgb(255, 228, 196,0.7);
+    border-radius: 20px;
+}
+.data{
+  background-color: rgb(255, 228, 196,0.7);
+  border-radius: 20px;
+
 }
 .title{
     text-align: center;
