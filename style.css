@@ -63,7 +63,6 @@
     
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
   width: 100%; 
   padding: 12px;  
